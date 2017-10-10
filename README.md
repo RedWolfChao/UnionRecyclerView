@@ -1,6 +1,6 @@
-###RecyclerView联动###
+#RecyclerView联动
 
-**应用场景 : **
+**应用场景 :**
 
  1. **同一个界面多个RecyclerView**
  2. **同时只会显示一个**
@@ -13,7 +13,7 @@
  2. **当RecyclerView滑动的时候,使用computeHorizontalScrollOffset()得到指定RecyclerView的偏移量**
  3. **其它的RecyclerView调用scrollBy(x,y)来进行代码操作平移**
 
-**核心代码 : **
+**核心代码 :**
 
 ```
         mMainLessonRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
@@ -45,8 +45,4 @@
         });
 
 ```
-
-**需要源码可以下载了..**
-
-**https://github.com/RedWolfChao/UnionRecyclerView**
 
